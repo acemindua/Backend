@@ -16,6 +16,7 @@
 - ну і покрити це все тестами
 
 Для кращого розуміння задач я кидаю ссилки, що конкретно і до чого
+- https://github.com/shymanskyivm/Labs_For_Application_Programming/tree/main/Lab%205
 - https://github.com/shymanskyivm/Labs_For_Application_Programming/tree/main/Lab%206 
 - https://github.com/shymanskyivm/Labs_For_Application_Programming/tree/main/Lab%207 
 - https://github.com/shymanskyivm/Labs_For_Application_Programming/tree/main/Lab%208 
