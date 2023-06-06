@@ -1,0 +1,75 @@
+.login {
+  background-color: #f5f5f5;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+#log-in h2 {
+  text-align: center;
+}
+
+.formlogin {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+  padding: 30px;
+}
+
+.inputlogin {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.inputlogin label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.inputlogin input {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1.2em;
+  width: 100%;
+}
+.inputlogin input:focus {
+  outline: none;
+  border-color: #000000;
+}
+.inputlogin .btn {
+  background-color: #c10f0f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.inputlogin .btn:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .formlogin {
+    padding: 10px;
+  }
+  .inputlogin label {
+    font-size: 0.9em;
+  }
+  .inputlogin input {
+    padding: 6px;
+    font-size: 0.9em;
+  }
+  .inputlogin .btn {
+    padding: 6px 12px;
+    font-size: 0.9em;
+  }
+}
+
+
+
+
+

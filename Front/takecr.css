@@ -1,0 +1,53 @@
+.takecredit {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+  padding: 30px;
+}
+.takecredit .titlecredit {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.takecredit .formcredit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.takecredit .formcredit .inputcredit {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.takecredit .formcredit .inputcredit label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.takecredit .formcredit .inputcredit input {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1.2em;
+  width: 100%;
+}
+.takecredit .formcredit .inputcredit input:focus {
+  outline: none;
+  border-color: #000000;
+}
+.takecredit .formcredit .inputcredit .btn {
+  background-color: #c10f0f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.takecredit .formcredit .inputcredit .btn:hover {
+  background-color: #000000;
+  color: #fff;
+}/*# sourceMappingURL=takecr.css.map */

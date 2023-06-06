@@ -1,0 +1,56 @@
+.pay-credit {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+  padding: 50px;
+}
+
+.titlepaycredit {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formpaycredit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputpaycredit {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.inputpaycredit label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.inputpaycredit input {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1.2em;
+  width: 100%;
+}
+.inputpaycredit input:focus {
+  outline: none;
+  border-color: #000000;
+}
+.inputpaycredit .btn {
+  background-color: #c10f0f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.inputpaycredit .btn:hover {
+  background-color: #000000;
+  color: #fff;
+}/*# sourceMappingURL=paycr.css.map */

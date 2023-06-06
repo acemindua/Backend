@@ -1,0 +1,267 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+main {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #c10f0f;
+  width: 80%;
+  max-width: 1400px;
+}
+
+#what-we-do {
+  padding: 50px;
+  background-color: #f6f6f6;
+}
+#what-we-do h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+#what-we-do ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+#what-we-do ul li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#what-we-do ul li:before {
+  content: "•";
+  margin-right: 10px;
+  color: #000000;
+}
+#what-we-do p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#why-choose-us {
+  background-color: #f6f6f6;
+  padding: 50px;
+}
+#why-choose-us h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+#why-choose-us p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#why-choose-us p:last-child {
+  margin-bottom: 0;
+}
+#why-choose-us ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+#why-choose-us ul li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#why-choose-us ul li:before {
+  content: "•";
+  margin-right: 10px;
+  color: #000000;
+}
+
+#contact-us {
+  background-color: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+}
+#contact-us h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+#contact-us p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#contact-us ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#contact-us li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#contact-us li:before {
+  content: "•";
+  margin-right: 10px;
+  color: #000000;
+}
+#contact-us a {
+  color: #0072c6;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+#contact-us a:hover {
+  color: #000000;
+}
+@media only screen and (max-width: 767px) {
+  header {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  nav {
+    padding: 10px;
+  }
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+  #what-we-do {
+    padding: 20px;
+  }
+  #what-we-do h2 {
+    font-size: 30px;
+  }
+  #what-we-do ul li {
+    font-size: 16px;
+  }
+  #why-choose-us {
+    padding: 20px;
+  }
+  #why-choose-us h2 {
+    font-size: 30px;
+  }
+  #why-choose-us p {
+    font-size: 16px;
+  }
+  #why-choose-us ul li {
+    font-size: 16px;
+  }
+  #contact-us {
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #contact-us h2 {
+    font-size: 24px;
+  }
+  #contact-us p {
+    font-size: 16px;
+  }
+  #contact-us li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  nav {
+    padding: 15px;
+  }
+  nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+  }
+  #what-we-do {
+    padding: 30px;
+  }
+  #what-we-do h2 {
+    font-size: 32px;
+  }
+  #what-we-do ul li {
+    font-size: 16px;
+  }
+  #why-choose-us {
+    padding: 30px;
+  }
+  #why-choose-us h2 {
+    font-size: 32px;
+  }
+  #why-choose-us p {
+    font-size: 16px;
+  }
+  #why-choose-us ul li {
+    font-size: 16px;
+  }
+  #contact-us {
+    padding: 30px;
+    justify-content: space-between;
+  }
+  #contact-us h2 {
+    font-size: 24px;
+  }
+  #contact-us p {
+    font-size: 16px;
+  }
+  #contact-us li {
+    font-size: 16px;
+  }
+}
