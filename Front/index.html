@@ -1,63 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="register.css">
-	<link rel="stylesheet" href="paycr.css">
-	<link rel="stylesheet" href="takecr.css">
-	<link rel="stylesheet" href="login.css">
-    <title>Credit service</title>
-</head>
-<body>
-    <header>
-		<h1>Credit Service</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="#what-we-do">What We Do</a></li>
-			<li><a href="#why-choose-us">Why Choose Us</a></li>
-            <li><a href="register.html">Registration</a></li>
-            <li><a href="login.html">Log in</a></li>
-			<li><a href="#contact-us">Contact Us</a></li>
-		</ul>
-    </nav>
-    <main>
-		<section id="what-we-do">
-			<h2>What We Do</h2>
-			<p>At Credit Services, we provide a range of financial solutions to help you manage your credit and finances. Our services include:</p>
-			<ul>
-				<li>Credit Counseling</li>
-				<li>Credit Repair</li>
-				<li>Debt Consolidation</li>
-				<li>Identity Theft Protection</li>
-			</ul>
-			<p>Our team of financial experts will work with you to create a personalized plan that fits your unique needs and goals. We understand that every situation is different, and we strive to provide customized solutions that work for you.</p>
-		</section>
-		<section id="why-choose-us">
-			<h2>Why Choose Us</h2>
-			<p>There are many reasons to choose Credit Services for your financial needs:</p>
-			<ul>
-				<li>We have years of experience in the industry and a proven track record of success.</li>
-				<li>We are committed to providing personalized solutions that work for you.</li>
-				<li>We offer competitive rates and flexible payment options.</li>
-				<li>We prioritize customer satisfaction and always put your needs first.</li>
-				<li>We have a team of dedicated professionals who are passionate about helping you achieve your financial goals.</li>
-			</ul>
-			<p>When you choose Credit Services, you can trust that you are in good hands. We will work tirelessly to ensure that you receive the best possible service and support.</p>
-		</section>
-    </main>
-	<footer id = "contact-us">
-		<h2>Contact Us</h2>
-		<p>You can contact with us in such ways:</p>
-		<ul>
-			<li>Call us: 0672131234</li>
-			<li>Write on email: creditservice@email.com</li>
-			<li>Come to the adress: Wall street 27</li>
-		</ul>
-	</footer>
-</body>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Credit service</title>
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+			rel="stylesheet">
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="./styles/main.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<div class="py-5 text-center text-uppercase">
+					<h1 class="fs-3">Credit Service</h1>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div class="container mb-0">
+				<div class="text-uppercase d-md-flex justify-content-between align-items-center">
+					<ul class="list-unstyled d-md-flex align-items-center text-center" id="navigations">
+						<li>
+							<a href="#what_we_do">What We Do</a>
+						</li>
+						<li>
+							<a href="#why_choose_us">Why Choose Us</a>
+						</li>
+						<li>
+							<a href="#contact_us">Contact Us</a>
+						</li>
+					</ul>
+
+					<ul class="list-unstyled d-md-flex align-items-center text-center">
+						<li>
+							<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#loginModal">Log in</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);" data-bs-toggle="modal"
+								data-bs-target="#registrationModal">Registration</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main>
+
+			<div class="container">
+
+				<div id="content" class="content">
+
+					<section id="what_we_do" class="mt-4">
+						<h2 class="fw-bold">What We Do</h2>
+						<p>At Credit Services, we provide a range of financial solutions to help you manage your credit
+							and finances. Our services include:</p>
+						<ul>
+							<li>Credit Counseling</li>
+							<li>Credit Repair</li>
+							<li>Debt Consolidation</li>
+							<li>Identity Theft Protection</li>
+						</ul>
+						<p>Our team of financial experts will work with you to create a personalized plan that fits your
+							unique needs and goals. We understand that every situation is different, and we strive to
+							provide customized solutions that work for you.</p>
+					</section>
+
+					<hr>
+
+					<section id="why_choose_us" class="my-4">
+						<h2 class="fw-bold">Why Choose Us</h2>
+						<p>There are many reasons to choose Credit Services for your financial needs:</p>
+						<ul>
+							<li>We have years of experience in the industry and a proven track record of success.</li>
+							<li>We are committed to providing personalized solutions that work for you.</li>
+							<li>We offer competitive rates and flexible payment options.</li>
+							<li>We prioritize customer satisfaction and always put your needs first.</li>
+							<li>We have a team of dedicated professionals who are passionate about helping you achieve
+								your financial goals.</li>
+						</ul>
+						<p>When you choose Credit Services, you can trust that you are in good hands. We will work
+							tirelessly to ensure that you receive the best possible service and support.</p>
+					</section>
+
+				</div>
+
+			</div>
+
+		</main>
+		<footer class="pb-5">
+			<section id="contact_us">
+				<div class="container">
+					<div class="text-center d-md-flex justify-content-between align-items-center">
+						<div>
+							<h4 class="text-uppercase">Contact Us</h2>
+								<p>You can contact with us in such ways:</p>
+						</div>
+
+
+						<ul class="list-unstyled">
+							<li>Call us: 0672131234</li>
+							<li>Write on email: creditservice@email.com</li>
+							<li>Come to the adress: Wall street 27</li>
+						</ul>
+					</div>
+
+				</div>
+
+			</section>
+		</footer>
+
+		<!-- Modal Login -->
+		<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<!-- Form Login-->
+						<form method="post" data-action="/api/v1/user/login" id="loginForm">
+							<div class="mb-3">
+								<label for="loginEmail" class="form-label">Email</label>
+								<input type="text" class="form-control" name="email" id="loginEmail">  
+							 </div>  
+							  <div class="mb-3">
+								<label for="loginPassword" class="form-label">Password</label>
+								<input type="password" class="form-control" name="password" id="loginPassword">
+							 </div>  
+						</form>
+						<!-- /Form Login-->
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-primary" form="loginForm" id="loginButton">Log in</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal Registration -->
+		<div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<!-- Form Register -->
+						<form method="post" data-action="/api/v1/user" id="registerForm">
+							<div class="mb-3">
+								<label for="regFname" class="form-label">First Name</label>
+								<input type="text" class="form-control" name="fname" id="regFname">
+							 </div>  
+							  <div class="mb-3">
+								<label for="regLname" class="form-label">Last Name</label>
+								<input type="text" class="form-control" name="lname" id="regLname">
+							 </div>  
+							 <div class="mb-3">
+								<label for="regPassword" class="form-label">Password</label>
+								<input type="password" class="form-control" name="password" id="regPassword">
+							 </div>  
+							<div class="mb-3">
+								<label for="regPasswordConfirm" class="form-label">Confirm Password</label>
+								<input type="password" class="form-control" name="password" id="regPasswordConfirm">
+							 </div> 
+							  <div class="mb-3">
+								<label for="regEmail" class="form-label">Email Address</label>
+								<input type="email" class="form-control" name="email" id="regEmail">
+							 </div> 
+							<div class="mb-3">
+								<label for="regPhone" class="form-label">Phone Number</label>
+								<input type="phone" class="form-control" name="phone" id="regPhone">
+							 </div> 
+							<div class="mb-3">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="regCondition">
+									<label class="form-check-label" for="flexCheckDefault">
+										Agreed to terms and conditions
+									</label>
+								  </div>
+								<p></p>
+							 </div> 
+						</form>
+						<!-- /Form Login-->
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-primary" form="registerForm" id="registerButton">Register</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+			integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+			crossorigin="anonymous"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script>
+			// Check if file is completely ready
+			$(document).ready(function () {
+
+				// Login
+				$('#loginButton').on('click', function(e){
+					e.preventDefault();
+					// variables
+					let formData = {
+						email: 		$("#loginEmail").val(),
+						password: 	$("#loginPassword").val(),
+					};
+
+					// Route action
+					const url = $('#loginForm').data('action');
+
+					$.ajax({
+						type: "POST",
+						url: url,
+						data: formData,
+						dataType: "json",
+						encode: true,
+					}).done(function (data) {
+						console.log(data);
+					});
+
+					alert(url);
+				});
+
+				// Register
+				$('#registerButton').on('click', function(e){
+					e.preventDefault();
+					// variables
+					let formData = {
+						fname: 				$("#regFname").val(),
+						lname: 				$("#regLname").val(),
+						password: 			$("regPassword").val(),
+						passwordConfirm: 	$("regPasswordConfirm").val(),
+						email: 				$("regEmail").val(),
+						passwordConfirm: 	$("regPhone").val(),
+					};
+
+					// Route action
+					const url = $('#registerForm').data('action');
+
+					$.ajax({
+						type: "POST",
+						url: url,
+						data: formData,
+						dataType: "json",
+						encode: true,
+					}).done(function (data) {
+						console.log(data);
+					});
+
+					alert('Register');
+				});
+
+			});
+		</script>
+	</body>
+
 </html>
